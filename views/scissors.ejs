@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/scissors.css">
+</head>
+
+<body>
+    <main>
+        <form class="form" action="/scissors/shorten" method="post">
+            <div class="form_holder">
+                <label for="shorturl"> Enter short url</label>
+                <input type="text" name="shorturl">
+            </div>
+            <div class="form_holder">
+                <label for="longurl"> Enter long url</label>
+                <input type="text" name="longurl">
+            </div>
+            <button class="btn" type="submit"> Get url </button>
+        </form>
+    </main>
+    
+</body>
+</html>

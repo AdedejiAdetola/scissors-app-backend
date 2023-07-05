@@ -1,0 +1,53 @@
+/* main styles */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* form */
+.form {
+    width: 15rem;
+    height: 15rem;
+    margin: 5rem auto;
+    background-color: blanchedalmond;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+}
+.form_holder {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.form_holder label {
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+}
+.form_holder input{
+    font-size: .9rem;
+    height: 1.6rem;
+    border: 1px solid wheat;
+}
+
+.form_holder input:focus{
+    border-color: grey
+}
+
+.form_holder input:invalid{
+    border-color: red
+}
+
+/* button */
+.btn {
+    background-color: rgb(38, 192, 141);
+    border-radius: .8rem;
+    padding: .5rem 1.2rem;
+    margin-top: .5rem;
+    color: white;
+    border: 1px solid rgb(38, 192, 141);
+}
+.btn:hover,
+.btn:active {
+    color: rgb(38, 192, 141);
+    background-color: white
+}
